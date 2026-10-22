@@ -252,4 +252,6 @@ details p { margin: 10px 0 0; color: var(--muted); }
   .product, .split { grid-template-columns: 1fr; gap: 24px; }
   .foot-grid { grid-template-columns: 1fr; }
   .promo { font-size: .78rem; }
+  .logo-tag { display: none; }
+  .top nav a:last-child { display: none; } /* « Livraison » reste dans le pied de page */
 }
