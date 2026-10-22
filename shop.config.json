@@ -1,0 +1,17 @@
+{
+  "name": "Frigo Malin",
+  "tagline": "Les accessoires anti-gaspi qui font durer tes restes",
+  "description": "Couvercles extensibles et sachets en silicone réutilisables pour garder tes restes frais plus longtemps, sans film plastique. Expédié depuis la Belgique.",
+  "url": "https://kingdz213.github.io/frigo-malin-boutique",
+  "recipesUrl": "https://kingdz213.github.io/frigo-malin/",
+  "lang": "fr-BE",
+  "currency": "EUR",
+  "shipping": { "price": 4.9, "freeFrom": 25, "delay": "2 à 3 jours ouvrables (bpost)", "countries": ["BE", "FR", "LU", "NL"] },
+  "seller": {
+    "legalName": "À COMPLÉTER — ton nom ou ta société",
+    "address": "À COMPLÉTER — adresse",
+    "bce": "À COMPLÉTER — numéro d'entreprise BCE",
+    "vat": "À COMPLÉTER — numéro de TVA (ou « franchise de TVA »)",
+    "email": "À COMPLÉTER — e-mail de contact"
+  }
+}

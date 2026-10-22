@@ -1,0 +1,14 @@
+{
+  "name": "frigo-malin-boutique",
+  "private": true,
+  "type": "module",
+  "description": "Boutique Frigo Malin : site statique + annonces prêtes pour eBay, Amazon, 2ememain, Facebook Marketplace et Google Shopping.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "annonces": "node src/annonces.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
