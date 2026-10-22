@@ -188,17 +188,17 @@ details p { margin: 10px 0 0; color: var(--muted); }
 }
 
 /* ===== Boutique ===== */
-.promo { background: var(--leaf); color: #fff; text-align: center; font-size: .85rem; font-weight: 600; padding: 8px 16px; }
+.promo { background: var(--leaf); color: var(--paper); text-align: center; font-size: .85rem; font-weight: 600; padding: 8px 16px; }
 .logo-tag { font: 600 .7rem var(--sans); text-transform: uppercase; letter-spacing: .12em; color: var(--tomato); margin-left: 2px; align-self: flex-start; }
 .hero { grid-template-areas: "text img"; }
 .hero-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 26px; }
 .link { font-weight: 600; text-decoration: none; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 0 28px;
-  border-radius: 999px; background: var(--tomato); color: #fff; font-weight: 600; text-decoration: none;
+  border-radius: 999px; background: var(--tomato); color: var(--paper); font-weight: 600; text-decoration: none;
   box-shadow: 0 6px 18px rgb(200 70 42 / .28); transition: transform .2s, box-shadow .2s, background .2s;
 }
-.btn:hover { color: #fff; transform: translateY(-2px); box-shadow: 0 10px 24px rgb(200 70 42 / .34); }
+.btn:hover { color: var(--paper); transform: translateY(-2px); box-shadow: 0 10px 24px rgb(200 70 42 / .34); }
 .btn-off { background: var(--line); color: var(--muted); box-shadow: none; cursor: not-allowed; }
 .btn-off:hover { color: var(--muted); transform: none; box-shadow: none; }
 .trust { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; padding: 0; margin: 22px 0 0; color: var(--muted); font-size: .9rem; }
@@ -222,7 +222,7 @@ details p { margin: 10px 0 0; color: var(--muted); }
 .pimg { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
 .pimg-fallback {
   display: grid; place-items: center; color: var(--accent);
-  background: radial-gradient(circle at 30% 25%, #fff 0, transparent 55%), color-mix(in srgb, var(--accent) 14%, var(--paper));
+  background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--card) 85%, transparent) 0, transparent 60%), color-mix(in srgb, var(--accent) 16%, var(--card));
 }
 .pimg-fallback svg { transition: transform .5s cubic-bezier(.2,.7,.2,1); }
 .pcard a:hover .pimg-fallback svg { transform: rotate(-6deg) scale(1.06); }
